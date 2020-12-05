@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Stock Path</title>
     <meta charset="uft-8">
@@ -13,22 +14,25 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <style>
-        .container-fluid{
+        .container-fluid {
             padding: 60px 50px;
         }
-        .jumbotron{
+
+        .jumbotron {
             background-color: black;
             color: white;
             padding: 100px 25px;
         }
 
-        .bg-grey{
+        .bg-grey {
             background-color: f6f6f6;
         }
-        .logo{
+
+        .logo {
             font-size: 200px;
         }
-        .navbar{
+
+        .navbar {
             margin-bottom: 0;
             background-color: black;
             z-index: 9999;
@@ -38,43 +42,48 @@
             letter-spacing: 4px;
             border-radius: 0;
         }
-        .navbar li a, .navbar .navbar-brand{
+
+        .navbar li a,
+        .navbar .navbar-brand {
             color: #fff !important;
         }
-        .navbar-nav li a:hover, .navbar-nav li.active a{
+
+        .navbar-nav li a:hover,
+        .navbar-nav li.active a {
             color: black;
             background-color: #fff;
         }
 
-        .navbar-default .navbar-toggle{
+        .navbar-default .navbar-toggle {
             border-color: transparent;
             color: #fff !important;
         }
 
         .card {
             /* Add shadows to create the "card" effect */
-            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
             transition: 0.3s;
-            
+
         }
 
         /* On mouse-over, add a deeper shadow */
         .card:hover {
-            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
         }
 
         /* Add some padding inside the card container */
         .container {
-          padding: 2px 16px;
+            padding: 2px 16px;
         }
-        .carousel{
+
+        .carousel {
             max-height: 65%;
             max-width: 65%;
             margin: auto;
         }
-        
-        @media screen and (max-width: 768px){
-            .col-sm-4{
+
+        @media screen and (max-width: 768px) {
+            .col-sm-4 {
                 text-align: center;
                 margin: 25px 0;
             }
@@ -89,44 +98,47 @@
     <!-- NAVBAR -->
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">Stock Path</a>
-          </div>
-          <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="nav navbar-nav navbar-right">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Stock Path</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
 
-              <li><a href="#solution">SOLUTION</a></li>
-              <li><a href="#highlights">HIGHLIGHTS</a></li>
-              <li><a href="#prototype">PROTOTYPE</a></li>
-              <li><a href="#team">TEAM</a></li>
-            </ul>
-          </div>
+                    <li><a href="#solution">SOLUTION</a></li>
+                    <li><a href="#highlights">HIGHLIGHTS</a></li>
+                    <li><a href="#prototype">PROTOTYPE</a></li>
+                    <li><a href="#team">TEAM</a></li>
+                </ul>
+            </div>
         </div>
-      </nav> 
+    </nav>
     <!-- HEADER  -->
     <div class="jumbotron text-center">
         <h1>Stock Path</h1>
     </div>
     <!-- BACKGROUND  -->
-    <div id="background"class="container-fluid">
+    <div id="background" class="container-fluid">
         <div class="row">
             <div class="col-sm-8">
                 <h2>Background</h2>
                 <!-- This is the background paragraph -->
                 <p>
-                    The project was proposed by Dr. Mariappan Jawaharlal or Dr. Jawa for short. 
-                    Dr. Jawa is a professor and an associate dean for faculty affairs of mechanical engineering 
+                    The project was proposed by Dr. Mariappan Jawaharlal or Dr. Jawa for short.
+                    Dr. Jawa is a professor and an associate dean for faculty affairs of mechanical engineering
                     at California State University - Sacramento.
-                    He has many hobbies, one of them involving the stock market. With his experience as an engineer to analyze data, 
+                    He has many hobbies, one of them involving the stock market. With his experience as an engineer to
+                    analyze data,
                     he has his own stock patterns in the stock, market.
-                    At the moment, Dr. Jawa makes his trade decisions based on the data provided by a built-in 
-                    function within microsoft excel. This being said the client must input additional data making it tedious
-                    as well affecting decision making. This is due to the stock market being time-sensitive, leading to potential
+                    At the moment, Dr. Jawa makes his trade decisions based on the data provided by a built-in
+                    function within microsoft excel. This being said the client must input additional data making it
+                    tedious
+                    as well affecting decision making. This is due to the stock market being time-sensitive, leading to
+                    potential
                     costly loses.
                 </p>
             </div>
@@ -138,19 +150,23 @@
     <!-- SOLUTION  -->
     <div id="scope" class="container-fluid bg-grey">
         <h2>Scope</h2>
-        <p> 
-            The main goal for this project is to be able to automate some of the processes that the client performs himself.
-            Focus on trimming the time spent on inputing data and increase the time for decision making. Give the ability to store data 
-            and previous report. As well as to have a more streamlined front end. 
-         </p>
+        <p>
+            The main goal for this project is to be able to automate some of the processes that the client performs
+            himself.
+            Focus on trimming the time spent on inputing data and increase the time for decision making. Give the
+            ability to store data
+            and previous report. As well as to have a more streamlined front end.
+        </p>
     </div>
     <!-- SOLUTION -->
     <div id="solution" class="container-fluid">
         <h2>Proposed Solution</h2>
         <p>
-            The solution that we came up with was to create an application that could make it simpler and easier to use. 
-            An improved version of what he is currently using. An application that pulls the stock data through an API, providing
-            the information needed. This data will be displayed in graph, it will also show news headlines to aid with decision making.
+            The solution that we came up with was to create an application that could make it simpler and easier to use.
+            An improved version of what he is currently using. An application that pulls the stock data through an API,
+            providing
+            the information needed. This data will be displayed in graph, it will also show news headlines to aid with
+            decision making.
             The abiltity to search certain stocks and have the ability to add and remove stocks from his watchlist.
         </p>
     </div>
@@ -159,118 +175,116 @@
         <h2>Highlights</h2>
         <p>
             Our solution simplifies the existing one, by automating some tasks and increasing time for decision making.
-            This application is intuitive and simple to use as well. This could also potentially reduce costly losses 
+            This application is intuitive and simple to use as well. This could also potentially reduce costly losses
             by reducing the delay the time spent on analyzing stock data.
-         </p>
+        </p>
     </div>
     <!-- PROTOTYPE -->
     <div id="prototype" class="container-fluid">
         <h2>Prototype</h2>
-         <!-- PROTOTYPE CAROUSEL -->
-         <div id="prototype-slide" class="carousel slide" data-ride="carousel">
+        <!-- PROTOTYPE CAROUSEL -->
+        <div id="prototype-slide" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
-              <li data-target="#protoype-slide" data-slide-to="0" class="active"></li>
-              <li data-target="#protoype-slide" data-slide-to="1"></li>
-              <li data-target="#protoype-slide" data-slide-to="2"></li>
-              <li data-target="#protoype-slide" data-slide-to="3"></li>
-              <li data-target="#protoype-slide" data-slide-to="4"></li>
-              <li data-target="#protoype-slide" data-slide-to="5"></li>
-              <li data-target="#protoype-slide" data-slide-to="6"></li>
-              <li data-target="#protoype-slide" data-slide-to="7"></li>
+                <li data-target="#protoype-slide" data-slide-to="0" class="active"></li>
+                <li data-target="#protoype-slide" data-slide-to="1"></li>
+                <li data-target="#protoype-slide" data-slide-to="2"></li>
+                <li data-target="#protoype-slide" data-slide-to="3"></li>
+                <li data-target="#protoype-slide" data-slide-to="4"></li>
+                <li data-target="#protoype-slide" data-slide-to="5"></li>
+                <li data-target="#protoype-slide" data-slide-to="6"></li>
+                <li data-target="#protoype-slide" data-slide-to="7"></li>
             </ol>
-          
+
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
-              <div class="item active">
-                <img src="img/1.png" alt="stock path">
-              </div>
-              <div class="item">
-                <img src="img/2.png" alt="stock path">
-              </div>
-              <div class="item">
-                <img src="img/3.png" alt="stock path">
-              </div>
-              <div class="item">
-                <img src="img/4.png" alt="stock path">
-              </div>
-              <div class="item">
-                <img src="img/5.png" alt="stock path">
-              </div>
-              <div class="item">
-                <img src="img/7.png" alt="stock path">
-              </div>
-              <div class="item">
-                <img src="img/6.png" alt="stock path">
-              </div>
-              <div class="item">
-                <img src="img/8.png" alt="stock path">
-              </div>
+                <div class="item active">
+                    <img src="img/9.png" alt="stock path">
+                </div>
+                <div class="item">
+                    <img src="img/1.png" alt="stock path">
+                </div>
+                <div class="item">
+                    <img src="img/2.png" alt="stock path">
+                </div>
+                <div class="item">
+                    <img src="img/3.png" alt="stock path">
+                </div>
+                <div class="item">
+                    <img src="img/4.png" alt="stock path">
+                </div>
+                <div class="item">
+                    <img src="img/5.png" alt="stock path">
+                </div>
+                <div class="item">
+                    <img src="img/7.png" alt="stock path">
+                </div>
+                <div class="item">
+                    <img src="img/6.png" alt="stock path">
+                </div>
+                <div class="item">
+                    <img src="img/8.png" alt="stock path">
+                </div>
             </div>
-          
+
             <!-- Controls -->
             <a class="left carousel-control" href="#prototype-slide" role="button" data-slide="prev">
-              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
             </a>
             <a class="right carousel-control" href="#prototype-slide" role="button" data-slide="next">
-              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
             </a>
-          </div>
+        </div>
     </div>
     <div id="team" class="container-fluid bg-grey">
         <h2>Team</h2>
         <div class="row">
-            <!-- FIRST CARD -->
             <div class="col-lg-3 col-sm-6">
-                <div class="thumbnail">
+                <!-- <div class="thumbnail">
                     <img src="img/avatar.png" alt="avatar">
-                </div>
+                </div> -->
                 <div class="caption">
                     <h3>Sergey Puriy</h3>
                     <hr>
                     <p>Computer Science</p>
                 </div>
             </div>
-            <!-- SECOND CARD --> 
             <div class="col-lg-3 col-sm-6">
-                <div class="thumbnail">
+                <!-- <div class="thumbnail">
                     <img src="img/avatar.png" alt="avatar">
-                </div>
+                </div> -->
                 <div class="caption">
                     <h3>Ian Hill</h3>
                     <hr>
                     <p>Computer Science</p>
                 </div>
             </div>
-            <!-- THIRD CARD  -->
            <div class="col-lg-3 col-sm-6">
-                <div class="thumbnail">
+                <!-- <div class="thumbnail">
                     <img src="img/avatar.png" alt="avatar">
-                </div>
+                </div> -->
                 <div class="caption">
                     <h3>Peter Kapellas</h3>
                     <hr>
                     <p>Computer Science</p>
                 </div>
             </div> 
-            <!-- FOURTH CARD  -->
            <div class="col-lg-3 col-sm-6">
-                <div class="thumbnail">
+                <!-- <div class="thumbnail">
                     <img src="img/avatar.png" alt="avatar">
-                </div>
+                </div> -->
                 <div class="caption">
                     <h3>Drake Dixon</h3>
                     <hr>
                     <p>Computer Science</p>
                 </div>
             </div> 
-            <!-- FIFTH CARD  -->
            <div class="col-lg-3 col-sm-6">
-                <div class="thumbnail">
+                <!-- <div class="thumbnail">
                     <img src="img/avatar.png" alt="avatar">
-                </div>
+                </div> -->
                 <div class="caption">
                     <h3>Andy Zhu</h3>
                     <hr>
@@ -278,11 +292,10 @@
                 </div>
             </div> 
 
-            <!-- SIXTH CARD  -->
            <div class="col-lg-3 col-sm-6">
-                <div class="thumbnail">
+                <!-- <div class="thumbnail">
                     <img src="img/avatar.png" alt="avatar">
-                </div>
+                </div> -->
                 <div class="caption">
                     <h3>Kevin Estrada</h3>
                     <hr>
@@ -290,11 +303,10 @@
                 </div>
             </div> 
 
-            <!-- Seventh CARD  -->
            <div class="col-lg-3 col-sm-6">
-                <div class="thumbnail">
+                <!-- <div class="thumbnail">
                     <img src="img/avatar.png" alt="avatar">
-                </div>
+                </div> -->
                 <div class="caption">
                     <h3>Chris Liang</h3>
                     <hr>
@@ -302,48 +314,54 @@
                 </div>
             </div> 
 
-            <!-- Eigth CARD  -->
            <div class="col-lg-3 col-sm-6">
-                <div class="thumbnail">
+                <!-- <div class="thumbnail">
                     <img src="img/avatar.png" alt="avatar">
-                </div>
+                </div> -->
                 <div class="caption">
                     <h3>Jonathan Le</h3>
                     <hr>
                     <p>Computer Science</p>
                 </div>
             </div> 
+            <div class="col-lg-3 col-sm-6">
+                <div class="caption">
+                    <h3>Dr. Jingwei Yang</h3>
+                    <hr>
+                    <p>Advisor</p>
+                </div>
+            </div>
         </div>
-        
+
     </div>
-    
+
 
 </body>
 <script>
-    $(document).ready(function(){
-      // Add smooth scrolling to all links in navbar + footer link
-      $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
-    
-       // Make sure this.hash has a value before overriding default behavior
-      if (this.hash !== "") {
-    
-        // Prevent default anchor click behavior
-        event.preventDefault();
-    
-        // Store hash
-        var hash = this.hash;
-    
-        // Using jQuery's animate() method to add smooth page scroll
-        // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
-        $('html, body').animate({
-          scrollTop: $(hash).offset().top
-        }, 900, function(){
-    
-          // Add hash (#) to URL when done scrolling (default click behavior)
-          window.location.hash = hash;
-          });
-        } // End if
-      });
+    $(document).ready(function () {
+        // Add smooth scrolling to all links in navbar + footer link
+        $(".navbar a, footer a[href='#myPage']").on('click', function (event) {
+
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+
+                // Prevent default anchor click behavior
+                event.preventDefault();
+
+                // Store hash
+                var hash = this.hash;
+
+                // Using jQuery's animate() method to add smooth page scroll
+                // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 900, function () {
+
+                    // Add hash (#) to URL when done scrolling (default click behavior)
+                    window.location.hash = hash;
+                });
+            } // End if
+        });
     })
-    </script> 
+</script>
 </html>
